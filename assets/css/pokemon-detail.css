@@ -1,0 +1,91 @@
+.contentDetail {
+    display: none;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+    padding: 1rem;
+    position: relative;
+}
+
+.title {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.types {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.type {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    text-align: center;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+}
+
+.pokemonImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible;
+    height: 7rem;
+    position: relative;
+    z-index: 2;
+}
+
+.pokemonImage img {
+    width: 10rem;
+}
+
+.description {
+    border-radius: 1rem 1rem 0 0;
+    background-color: #fff;
+    position: relative;
+    border-radius: 2rem 2rem 0 0;
+    margin-top: -2rem;
+    width: 100%;
+    padding: 6rem 1rem 1rem 1rem;
+}
+
+.description th {
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.description td {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.description tbody {
+    margin-top: 1rem;
+}
+
+.header #buttonReturn {
+    color: #fff;
+    border-color: #fff;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+@media screen and (min-width: 992px) {
+    .contentDetail {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
